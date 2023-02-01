@@ -12,7 +12,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=S3cret
       - MYSQL_USER=my_db_user
-      - MYSQL_DATABASE=my_db
       - MYSQL_PASSWORD=S3cret
     networks:
       - mynetwork
